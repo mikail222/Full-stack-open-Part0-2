@@ -1,17 +1,15 @@
- 
 
-  const App=()=>{
-    const now=new Date()
-    const a= 10
-    const b= 20
-
-    return(
+const App=()=>{
+  const now=new Date()
+  const a=10
+  const b = 20
+  return(
     <div>
-      <p>Hello Villagers its {now.toSring()}</p>
-      <P>
+      <p>hello world it's{now.toString}</p>
+      <p>
         {a} plus {b} is {a + b}
-      </P>
+      </p>
     </div>
-    )
-  }
-export default App;
+  )
+}
+export default App()
